@@ -17,7 +17,7 @@ def main():
 
     md_content = markdownify.markdownify(content)
 
-    f = open(os.path.join(os.getcwd(), f"{file_name}.md"), "w")
+    f = open(os.path.join(os.getcwd(), f"result/{file_name}.md"), "w")
     f.write(md_content)
     f.close()
 
